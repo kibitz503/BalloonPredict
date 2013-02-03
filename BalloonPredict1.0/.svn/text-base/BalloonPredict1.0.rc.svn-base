@@ -1,0 +1,155 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_INITIALIZEDIALOGBOX DIALOGEX 0, 0, 118, 129
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Initialize"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Get Map",IDC_GETMAPBUTTON,62,80,42,30
+    PUSHBUTTON      "Create Map",IDC_CREATEMAPBUTTON,16,80,42,30
+    PUSHBUTTON      "Serial",IDC_SERIALBUTTON,16,20,42,30
+    PUSHBUTTON      "File",IDC_FILEBUTTON,62,20,42,30
+    GROUPBOX        "Map Creation",IDC_MAP_GROUP,7,67,104,50
+    GROUPBOX        "Choose Input Type",IDC_INPUT_GROUP,7,7,104,50
+END
+
+IDD_SERIALDIALOG DIALOGEX 0, 0, 88, 67
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Serial"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,27,46,54,14
+    COMBOBOX        IDC_COMCOMBO,7,7,74,40,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Get Wind Table",IDC_GETWINDTABLEBUTTON,27,26,54,15
+END
+
+IDD_SETTINGSDIALOG DIALOGEX 0, 0, 215, 256
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CALLSIGN_EDIT,142,7,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AREA_OF_PARACHUTE_EDIT,142,27,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COEFFICIENT_OF_DRAG_BALLOON_EDIT,142,47,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COEFFICIENT_OF_DRAG_PARACHUTE_EDIT,142,67,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOTAL_MASS_BALLOON_EDIT,142,87,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOTAL_MASS_PAYLOAD_EDIT,142,107,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LIFT_EDIT,142,127,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSMISSION_EDIT,142,147,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BURST_DIAMETER_EDIT,142,167,66,14,ES_AUTOHSCROLL
+    LTEXT           "Burst Diameter (meters)",IDC_BURST_DIAMETER_STATIC,7,170,106,8
+    LTEXT           "Coefficient of Drag Balloon",IDC_COEFFICIENT_OF_DRAG_BALLOON_STATIC,7,50,94,8
+    LTEXT           "Area of Parachute (meters^2)",IDC_AREA_OF_PARACHUTE_STATIC,7,30,106,8
+    LTEXT           "Total Mass (kg) of Balloon",IDC_TOTAL_MASS_BALLOON_STATIC,7,90,103,8
+    LTEXT           "Callsign",IDC_CALLSIGN_STATIC,7,10,108,8
+    LTEXT           "Radio Transmission Interval (seconds)",IDC_TRANSMISSION_STATIC,7,150,127,8
+    LTEXT           "Coefficient of Drag Parachute",IDC_COEFFICIENT_OF_DRAG_PARACHUTE_STATIC,7,70,104,8
+    LTEXT           "Total Mass (kg) of Payload",IDC_TOTAL_MASS_PAYLOAD_STATIC,7,110,105,8
+    LTEXT           "Lift (lbs)",IDC_LIFT_STATIC,7,130,106,8
+    PUSHBUTTON      "View",IDC_VIEWBUTTON,158,193,50,14
+    PUSHBUTTON      "Save",IDC_SAVEBUTTON,158,213,50,14
+    DEFPUSHBUTTON   "Done",IDOK,158,233,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_INITIALIZEDIALOGBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_SERIALDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 81
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_SETTINGSDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 249
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
